@@ -1,13 +1,13 @@
-html {background-color: rgb(62, 116, 187)}
+html {background-color: rgb(86, 129, 184)}
 
 body{
     font-family: monospace;
-    background-color: rgb(155, 189, 233);
+    background-color: rgb(179, 201, 231);
     margin: 40px;
     border-style: solid;
-    border-width: 8px;
-    border-color: aliceblue;
-    padding: 10px;
+    border-width: 6px;
+    border-color: rgb(159, 170, 180);
+    padding: 14px;
 }
 .main-title{
     margin: auto;
@@ -66,14 +66,14 @@ body{
     margin-bottom: 20px;
 }
 .middle-of-page .right .images .left-image{
-    background-color: rgb(242, 204, 218);
+    background-color: rgb(243, 225, 231);
     width: 200px;
     height: 200px;
 
 }
 
 .middle-of-page .right .images .right-image{
-    background-color: rgb(242, 204, 218);
+    background-color: rgb(243, 225, 231);
     width: 200px;
     height: 200px;
 }
@@ -92,7 +92,7 @@ body{
 
 .middle-of-page .left .image{
     border: 1px;
-    background-color: rgb(242, 204, 218);
+    background-color: rgb(243, 225, 231);
     width: 450px;
     height: 200px;
     text-align: center;
