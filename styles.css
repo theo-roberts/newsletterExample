@@ -1,0 +1,95 @@
+html {background-color: rgb(155, 189, 233)}
+
+body{
+    font-family: monospace;
+}
+.main-title{
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 50%;
+    text-align: center;
+    font-size: 60px;
+}
+
+.top-of-page{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    gap: 6px;
+    font-size: 16px;
+}
+
+.top-of-page .intro{
+    font-size: 14px;
+}
+
+.day-of-week{
+    font-weight: bold;
+}
+
+.date{
+    font-weight: bold;
+}
+
+.middle-of-page{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.middle-of-page .left{
+    width: 450px;
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+.middle-of-page .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+.middle-of-page .right .images{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.middle-of-page .right .images .left-image{
+    background-color: rgb(242, 204, 218);
+    width: 200px;
+    height: 200px;
+
+}
+
+.middle-of-page .right .images .right-image{
+    background-color: rgb(242, 204, 218);
+    width: 200px;
+    height: 200px;
+}
+
+.middle-of-page .left .title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.middle-of-page .right .title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.middle-of-page .left .image{
+    border: 1px;
+    background-color: rgb(242, 204, 218);
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
